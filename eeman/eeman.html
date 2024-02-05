@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .div{
+            /* height: 100px; */
+            width: 100%;
+            /* border: 2px solid red; */
+            background: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            overflow: hidden;
+            align-items: center;
+            box-shadow: 10px 10px 10px rgba(160, 126, 126, 0.692),-10px -10px 10px rgba(114, 90, 90, 0.568);
+          
+
+        }
+        .img-box{
+            height: 100px;
+            width: 150px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        li{
+            list-style: none;
+          
+
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+            color: rgb(143, 59, 59);
+            transition: all .1s linear;
+            font-size: 1.1rem;
+            font-family: 'Playfair Display', serif;
+
+            
+        }
+        a:hover{
+            color: rgb(236, 49, 49);
+        }
+        ul{
+            display: flex;
+            font-size: 20px;
+            text-transform: capitalize;
+            gap: 20px;
+        }
+        .new-box{
+            display: none;
+            font-size: 2rem;
+            color: rgba(92, 78, 78, 0.781);
+        }
+        /* this is for 822px for responsive */
+@media screen and (max-width:822px) {
+    
+    .list-link{
+display: none;
+    }
+    .new-box{
+        display: block;
+    }
+}
+@media screen and (max-width:650px) {
+    .right-box{
+    
+            display: none;
+        }
+        .left-box{
+            width: 100%;
+        }
+        .my{
+            font-size:3rem;
+        }
+    }
+@media screen and (max-width:375px) {
+    .img-box{
+       
+            width: 120px;
+        }
+.my{
+    font-size: 2.5rem;
+}
+.our{
+            font-size: 1.3rem;
+        }
+}
+@media  screen and (max-width:322px) {
+    .left.box{
+        width: 100%;
+    }
+    
+}
+
+        /* 1rem=16px */
+        /* hero-section */
+        .hero-section{
+            /* height: 100vh; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+            background: pink;
+    padding-left: 40px;       
+    padding-right: 30px;
+        }
+        h4{
+            font-size: 22px;
+        }
+        .left-box{
+            width:50%;
+       
+            border: 2px solid red;
+            padding: 30px;
+            font-size: 30px
+        }
+        .right-box{
+            width: 50%;
+
+            /* border: 2px solid red; */
+        }
+        h1{
+            text-transform: capitalize;
+            /* color: white; */
+            font-size: 3rem;
+            
+        }
+        .first{
+            color: green;
+        }
+        .short-box{
+            text-align: center;
+        }
+        h4{
+            text-transform:capitalize;
+            font-weight: bold;
+         border-bottom: 2px solid rgb(255, 255, 255);
+         display: inline-block;
+      
+        }
+        .third{
+            color: red;
+            font-weight: bold;
+            
+        }
+        h5{
+            font-size: 20px;
+            margin-top: 30px;
+            /* color: white; */
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        p{
+            margin-top: 19px;
+            /* color: white; */
+            font-size: 20px;
+            /* align-items: center; */
+            /* text-align: center; */
+        }
+        .h5-box{
+            margin-top: 10px;
+            /* color: white; */
+            font-weight: bold;
+            font-size: 15px;
+            padding: 10px;
+      
+        }
+        .right-box{
+            height: 300px;
+            
+        }
+     
+/* .img-box{
+@media  screen and {
+    
+}
+       
+            width: 120px;
+} */
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="div">
+        <div class="img-box">
+        <img src="../../img/images.png" alt=" ">
+    </div>
+   <nav class="nav-menu">
+    <div class="new-box">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul class="list-link">
+        <li class="links"><a class="link" href="#">home</a></li>
+        <li  class="links"><a class="link" href="#">about</a></li>
+        <li class="links"><a class="link"href="#">service</a></li>
+        <li class="links"><a class="link" href="#">portfolio</a></li>
+        <li class="links"><a class="link"href="#">blog</a></li>
+        <li class="links"><a class="link"href="#">our team</a></li>
+        <li class="links"><a class="link"href="#">contact</a></li>
+    </ul>
+   </nav>
+</div>
+</header>
+<main>
+    <section class="hero-section">
+        <div class="left-box">
+            <div class="short-box">
+            <h1 class="my"><span class="first">digi</span>neptronic</h1>
+            <h4 class="our"><span class="third">r&d </span>based company</h4>
+        </div>
+        <div class="h5-box">
+        <h5>your technology partner for innovative and   impactful digital solution </h5>
+
+    <p>Stand out online store, Graphics Design, Digital marketing, Ed-tech and content writing with Digineptronics.
+         <h5>turn your idea into reality.</h5></p>
+</div>
+</div>
+        <div class="right-box">
+            <img src="premium_photo-1683140655656-20448abc55da.avif" alt="">
+        </div>
+    </section>
+</main>
+</body>
+</html>
