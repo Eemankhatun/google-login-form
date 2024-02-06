@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      body{
+        font-weight: bold;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+        .google-login-form{
+        box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.1), -5px -5px 5px  rgba(0, 0, 0, 0.1);
+       
+        height: 550px;
+        width: 450px;
+   
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        /* justify-content: center; */
+        padding: 40px;
+      }
+      .blue-no{
+        color:rgb(0, 115, 255);
+      }
+      .red{
+        color: red;
+      }
+      .yellow{
+        color: yellow;
+      }
+      .blue-fo{
+        color:rgb(0, 115, 255);
+      }
+      .gree{
+        color: green;
+      }
+      .red-no{
+        color: red;
+      }
+      .blue{
+        color: rgb(0, 115, 255);
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+    
+      .input-box   input{
+      padding: 17px;
+      /* margin-left: 20px; */
+ margin-bottom: 5px;
+ width: 100%;
+ border-radius: 5px;
+ outline: none;
+ border: 1px solid gray;
+ font-size: 1rem;
+     }
+     .account-box h1{
+      text-align: center;
+        margin-bottom: 20px;
+      }
+      .account-box h3{
+  text-align: center;
+  margin-bottom: 20px;
+font-size: 1.7rem;
+font-weight: 400;
+
+     }
+     .account-box .text{
+      text-align: center;
+      margin-bottom: 40px;
+    color:   rgba(0, 0, 0, 0.798);
+
+     }
+     button{
+  color: rgb(255, 255, 255);
+  background: rgb(0, 115, 255);
+ padding: 10px 30px;
+ border-radius: 8px;
+ border: none;
+ font-size: 19px;
+ margin-left: auto;
+ margin-top: 30px;
+ display: block;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="google-login-form">
+        <form action="#">
+         <div class="account-box">
+           <h1> <span class="blue-no">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue-fo">g</span><span class="gree
+             ">l</span><span class="red-no">e</span></h1>
+           <h3>Find your email</h3>  
+           <p class="text">Enter your phone number or recovery email</p>
+           
+        
+         </div>
+         <div class="input-box">
+            <input type="text" placeholder="Phone number or email " required>
+            
+          
+          </div>
+          <div class="button-box">
+         
+            <button>Next</button>
+          </div>
+         </form>
+      </div>
+</body>
+</html>
