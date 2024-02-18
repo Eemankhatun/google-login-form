@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .login-big-box{
+            background: url("https://images.unsplash.com/photo-1707740901985-10cd7085c0b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8");
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        font-family: sans-serif;        }
+        .login-inner-box{
+            background-color: white;
+        }
+        .img-box{
+            height: 500px;
+            width: 500px;
+           
+            
+        }
+        .img-box img{
+            width: 100%;
+            height: 100%;
+        }
+        .simple-box{
+            color: white;
+        }
+        .input-box{
+            color: rgb(0, 0, 0);
+        }
+        .prag-box{
+            color: rgb(226, 209, 209);
+            display: flex;
+            justify-content: space-between;
+        }
+        .sec-box{
+            height: 100%;
+            width: 500px;
+           background: rgb(255, 255, 255);
+            padding: 35px;
+        }
+        .login-inner-box{
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+        }
+        h1{
+            color: rgb(4, 4, 41);
+            text-align: center;
+        }
+        .i-box  i{
+           margin-right: 4px;
+           margin-left: 3px;
+        }
+        h3{
+            color: rgb(1, 1, 32);
+            text-align: center;
+        }
+        .input-box{
+        width: 90%;
+        margin-top: 20px;
+        margin-inline:auto ;
+        }
+        .i-box{
+border: 2px solid rgb(99, 96, 96);
+padding: 5px;
+margin: 20px 0px;
+border-radius: 6px;
+        }
+        .i-box input{
+            background: transparent;
+            border: none;
+            outline: none;
+            color: rgb(0, 0, 0);
+
+        }
+        .box{
+            display: flex;
+        }
+        .forgot{
+            color: rgba(0, 0, 255, 0.72);
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px 40px;
+background: rgba(0, 0, 230, 0.821);
+border-radius: 10px;
+border: none;
+color: white;
+        }
+        p{
+            color: black;
+        margin-left: 4px;        }
+    </style>
+</head>
+<body>
+    <div class="login-big-box">
+     <div class="login-inner-box">
+        <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1524088484081-4ca7e08e3e19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2FkJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        </div>
+        <div class="sec-box">
+        <div class="simple-box">
+            <h1>Welcome to Appan Mart</h1>
+            <h3>Online Shop</h3>
+        </div>
+        <div class="input-box">
+     <div class="i-box">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Enter your Username">
+     </div>
+      <div class="i-box">
+        <i class="fa-solid fa-lock"></i>
+        <input type="text" placeholder="Enter your password">
+      </div>
+      <div class="prag-box">
+        <div class="box">
+        <input type="checkbox">
+    <p>Remember Me</p>
+</div>
+    <p class="forgot">Forgot Your Password</p>
+</div>
+            <!-- <input type="text"> -->
+        </div>
+          
+            <button>Submit</button>
+        </div>
+     </div>
+    </div>
+</body>
+</html>
