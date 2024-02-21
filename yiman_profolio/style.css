@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+   background: pink;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    padding: 5px 17px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+a{
+   font-size: 1.1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: relative;
+    color: aqua;
+}
+/* .logo-y{} */
+.logo-k{
+   position: absolute; 
+   top: 35px;
+   left: 43px;
+}
